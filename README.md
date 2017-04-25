@@ -1,6 +1,7 @@
 # npmtest-node-gallery
 
-test coverage for  [node-gallery (v1.1.0)](http://www.github.com/cianclarke/node-gallery)  [![npm package](https://img.shields.io/npm/v/npmtest-node-gallery.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-gallery) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-gallery.svg)](https://travis-ci.org/npmtest/node-npmtest-node-gallery)
+#### basic test coverage for  [node-gallery (v1.1.0)](http://www.github.com/cianclarke/node-gallery)  [![npm package](https://img.shields.io/npm/v/npmtest-node-gallery.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-gallery) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-gallery.svg)](https://travis-ci.org/npmtest/node-npmtest-node-gallery)
+
 #### NodeJS Photo Gallery using directory structure & exif info to output a gallery
 
 [![NPM](https://nodei.co/npm/node-gallery.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/node-gallery)
@@ -9,7 +10,7 @@ test coverage for  [node-gallery (v1.1.0)](http://www.github.com/cianclarke/node
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-gallery/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-node-gallery/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-gallery/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-gallery/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-gallery/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-gallery/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-node-gallery/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-node-gallery/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-gallery/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-gallery/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-node-gallery/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-gallery/build/coverage.html/index.html)
 
@@ -77,7 +78,8 @@ test coverage for  [node-gallery (v1.1.0)](http://www.github.com/cianclarke/node
         "test": "node test/test-gallery.js ; node test/test-album.js ; node test/test-photo.js"
     },
     "subdomain": "node-gallery",
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
